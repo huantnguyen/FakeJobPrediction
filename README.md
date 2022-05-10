@@ -7,6 +7,6 @@ When solved it can help innocent people who are preyed upon by avoiding scams. W
 
 ## Instruction
 ### For Pickled Models
-Run the following lines:
-pickled_model = pickle.load(open('modelName.pkl', 'rb'))
+Run the following lines: <br />
+pickled_model = pickle.load(open('modelName.pkl', 'rb')) <br />
 'model'_pred = pickled_model.predict(X_test)
